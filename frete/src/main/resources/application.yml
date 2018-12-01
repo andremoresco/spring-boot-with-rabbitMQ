@@ -1,0 +1,13 @@
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: frete.service
+    password: teste
+
+queue:
+  frete:
+    name: FreteQueue
+server:
+  port: 8082
